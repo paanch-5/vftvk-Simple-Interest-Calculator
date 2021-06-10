@@ -7,6 +7,8 @@ function compute()
     const d = new Date();
     var n = d.getFullYear();
     var y=t+n;
+    document.getElementById ('num').innerHTML ="if you deposit "+p;
+    document.getElementById ('num1').innerHTML ="at an intrest rate of "+r;
     return y ;
 }
 
