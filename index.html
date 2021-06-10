@@ -7,10 +7,19 @@
         <h1>Simple Interest Calculator</h1>
 
         Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
+        Intrest Rate <input type="range"  id="rate">  <br/>
         No. of Years <input type="number"  id="years">  <br/>
         Interest : <span id="result"></span><br>
+        <form action="/action_page.php">
+  <label for="No.Of Years">No.Of Years:</label>
+  <select id="No.Of Years" name="No.Of Years">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+</form>
 
-        <button onclick="compute()">Compute</button>
+        <button onclick="compute()">Compute Intrest</button>
     </body>
 </html>
